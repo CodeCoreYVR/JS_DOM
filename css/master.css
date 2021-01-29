@@ -153,3 +153,11 @@ html * {
   width: 5rem;
   flex-shrink: 0;
 }
+
+.inverted {
+  filter: invert(1);
+}
+
+.flipped {
+  transform: rotate(180deg);
+}
